@@ -1,0 +1,85 @@
+/* -----------------Footer specifications--------------------------------- */
+#footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* Quick Links Specifications*/
+#quicklinks{
+  background-color: #F7D079;
+  padding: 10px;
+  text-align: left;
+}
+
+.quicklink_logo{
+  width:15%;
+  float: left;
+  padding: 10px;
+}
+
+/*.links_main{
+  align:center;
+}
+.links_row{
+  text-align: left;
+}*/
+hr{
+  margin: 0;
+  background-color: grey;
+  width:30%;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: grey;
+}
+
+
+/* Features Styles*/
+#features{
+  text-align: center;
+  background-color: #F9E6BC;
+  padding: 10px;
+  border-top: 10px;
+  border-bottom: 10px;
+}
+/* hiding features tab on phone */
+@media (max-width:1028px) {
+  #features{
+    display: none;
+  }
+}
+
+
+/* Copyright Styles*/
+#copyright{
+  text-align: center;
+  padding-top: 20px;
+  background-color: #F7D079;
+}
+
+.copyright_icons{
+  padding: 10px;
+}
+
+.copyright_icons:hover{
+  color: grey;
+}
+
+.copyright_text{
+  color: #8f8f8f;
+  text-align: center;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
